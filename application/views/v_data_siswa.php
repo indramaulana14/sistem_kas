@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Membuat CRUD dengan CodeIgniter | MalasNgoding.com</title>
+	<title>Input Data Siswa</title>
 </head>
 <body>
-	<center><h1>Membuat CRUD dengan CodeIgniter | MalasNgoding.com</h1></center>
-	<center><?php echo anchor('crud/tambah','Tambah Data'); ?></center>
+	<center><?php echo anchor('data_siswa/tambah','Tambah Data'); ?></center>
 	<table style="margin:20px auto;" border="1">
 		<tr>
 			<th>No</th>
@@ -25,8 +24,8 @@
 			<td><?php echo $u->username ?></td>
 			<td><?php echo $u->password ?></td>
 			<td>
-			    <?php echo anchor('crud/edit/'.$u->nis,'Edit'); ?>
-                <?php echo anchor('crud/hapus/'.$u->nis,'Hapus'); ?>
+			    <?php echo anchor('data_siswa/edit/'.$u->nis,'Edit'); ?>
+                <?php echo anchor('data_siswa/hapus/'.$u->nis,'Hapus'); ?>
 			</td>
 		</tr>
 		<?php } ?>

@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Membuat CRUD dengan CodeIgniter | MalasNgoding.com</title>
+	<title>Edit Data Siswa</title>
 </head>
 <body>
 	<center>
-		<h1>Membuat CRUD dengan CodeIgniter | MalasNgoding.com</h1>
-		<h3>Edit Data</h3>
+		<h1>Edit Data Siswa</h1>
 	</center>
 	<?php foreach($siswa as $u){ ?>
-	<form action="<?php echo base_url(). 'crud/update'; ?>" method="post">
+	<form action="<?php echo base_url(). 'index.php/data_siswa/update'; ?>" method="post">
 		<table style="margin:20px auto;">
 			<tr>
 				<td>NIS</td>
@@ -23,7 +22,7 @@
 			</tr>
 			<tr>
 				<td>Username</td>
-				<td><input type="text" name="usernmae" value="<?php echo $u->username ?>"></td>
+				<td><input type="text" name="username" value="<?php echo $u->username ?>"></td>
 			</tr>
             <tr>
 				<td>Password</td>

@@ -1,8 +1,8 @@
 <?php 
 
-class M_data extends CI_Model{
+class M_data_walikelas extends CI_Model{
 	function tampil_data(){
-		return $this->db->get('siswa');
+		return $this->db->get('walikelas');
 	}
 
 	function input_data($data,$table){

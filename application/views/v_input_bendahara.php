@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Halaman Tambah Siswa</title>
+	<title>Halaman Tambah Bendahara</title>
 </head>
 <body>
 	<center>
-		<h3>Tambah Siswa</h3>
+		<h3>Tambah Bendahara</h3>
 	</center>
-	<form action="<?= base_url('index.php/crud/tambah_aksi') ?>" method="post">
+	<form action="<?= base_url('index.php/data_bendahara/tambah_aksi') ?>" method="post">
 		<table style="margin:20px auto;">
+			<tr>
+				<td>Id Bendahara</td>
+				<td><input type="text" name="id_bendahara"></td>
+			</tr>
 			<tr>
 				<td>NIS</td>
 				<td><input type="text" name="nis"></td>
