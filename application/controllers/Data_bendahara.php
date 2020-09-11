@@ -20,7 +20,7 @@ class Data_bendahara extends CI_Controller{
 	}
 
 	function tambah_aksi(){
-		$nis = $this->input->post('id_bendahara');
+		$id_bendahara = $this->input->post('id_bendahara');
 		$nis = $this->input->post('nis');
 		$nama = $this->input->post('nama');
 		$username = $this->input->post('username');
@@ -50,7 +50,7 @@ class Data_bendahara extends CI_Controller{
 	}
 
 	function update(){
-		$nis = $this->input->post('id_bendahara');
+		$id_bendahara = $this->input->post('id_bendahara');
 		$nis = $this->input->post('nis');
 		$nama = $this->input->post('nama');
 		$username = $this->input->post('username');

@@ -47,7 +47,7 @@ class Data_siswa extends CI_Controller{
 		$this->load->view('v_edit_siswa',$data);
 	}
 
-	function update(){
+	public function update(){
 		$nis = $this->input->post('nis');
 		$nama = $this->input->post('nama');
 		$username = $this->input->post('username');
