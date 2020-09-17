@@ -10,6 +10,8 @@
 	    <div>
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
 				<a class="navbar-brand">Sistem Informsi Uang Kas</a>
+				<a class="btn btn-outline-light margin-auto" href="<?= base_url('index.php/home') ?>">Home</a>
+			<a class="btn btn-outline-light" href="<?= base_url('index.php/walikelas/Login_walikelas') ?>">Logout</a>
 			</nav>
 		</div>
 		<div class="container">
@@ -36,7 +38,7 @@
 							<li></br></li>
 							<li></br></li>
 						</ul>
-						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/walikelas/Login_walikelas') ?>">Login Disini</a>			
+						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/Login_walikelas') ?>">Login Disini</a>			
 					</div>
 				</div>
 
@@ -52,7 +54,7 @@
 							<li></br></li>
 							<li></br></li>
 						</ul>
-						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/bendahara/Login_bendahara') ?>">Login Disini</a>
+						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/Login_bendahara') ?>">Login Disini</a>
 					</div>
 				</div>
 
@@ -68,7 +70,7 @@
 							<li></br></li>
 							<li></br></li>
 						</ul>
-						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/siswa/Login_siswa') ?>">Login Disini</a>
+						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/Login_siswa') ?>">Login Disini</a>
 					</div>
 				</div>
 			</div>

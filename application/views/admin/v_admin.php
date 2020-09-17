@@ -10,6 +10,7 @@
 	    <div>
 			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
 				<a class="navbar-brand">Sistem Informsi Uang Kas</a>
+				<a class="btn btn-outline-light" href="<?= base_url('index.php/admin/Login_admin') ?>">Logout</a>
 			</nav>
 		</div>
 		<div class="container">
@@ -26,7 +27,7 @@
 			<div class="card-deck mb-3 text-center">
 				<div class="card mb-4 shadow-sm">
 					<div class="card-header">
-						<h4 class="my-0 font-weight-normal">Saya Wali Kelas</h4>
+						<h4 class="my-0 font-weight-normal">Kelola Data Wali Kelas</h4>
 					</div>
 					<div class="card-body">
 						<h1 class="card-title pricing-card-title"></br></h1>
@@ -36,13 +37,13 @@
 							<li></br></li>
 							<li></br></li>
 						</ul>
-						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/walikelas/Login_walikelas') ?>">Login Disini</a>			
+						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/walikelas/Data_walikelas') ?>">Klik Disini</a>			
 					</div>
 				</div>
 
 				<div class="card mb-4 shadow-sm">
 					<div class="card-header">
-						<h4 class="my-0 font-weight-normal">Saya Bendahara</h4>
+						<h4 class="my-0 font-weight-normal">Kelola Data Bendahara</h4>
 					</div>
 					<div class="card-body">
 						<h1 class="card-title pricing-card-title"></br></h1>
@@ -52,13 +53,13 @@
 							<li></br></li>
 							<li></br></li>
 						</ul>
-						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/bendahara/Login_bendahara') ?>">Login Disini</a>
+						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/bendahara/Data_bendahara') ?>">Klik Disini</a>
 					</div>
 				</div>
 
 				<div class="card mb-4 shadow-sm">
 					<div class="card-header">
-						<h4 class="my-0 font-weight-normal">Saya Siswa</h4>
+						<h4 class="my-0 font-weight-normal">Kelola Data Siswa</h4>
 					</div>
 					<div class="card-body">
 						<h1 class="card-title pricing-card-title"></br></h1>
@@ -68,7 +69,7 @@
 							<li></br></li>
 							<li></br></li>
 						</ul>
-						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/siswa/Login_siswa') ?>">Login Disini</a>
+						<a class="btn btn-info btn-lg btn-block" href="<?= base_url('index.php/siswa/Data_siswa') ?>">Klik Disini</a>
 					</div>
 				</div>
 			</div>
